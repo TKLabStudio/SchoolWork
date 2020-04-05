@@ -1,0 +1,2 @@
+function y = freebody(time)
+y=1/2*980*time.*time;%y=(1/2)gt^2

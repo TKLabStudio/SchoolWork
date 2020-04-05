@@ -1,0 +1,21 @@
+%plotxy01
+x = linspace(0, 2*pi);
+y=sin(x);
+plot(x,y);
+
+%plotxy02
+x = linspace(0, 2*pi);
+plot(x, sin(x), x, cos(x) , x, sin(x)+cos(x));
+
+%plotxy03
+x = linspace(0, 2*pi);
+plot(x, sin(x), 'o',x, cos(x),'x' , x, sin(x)+cos(x),'*');
+
+%plotxy04
+y=peaks;
+plot(y);
+
+%plotxy05
+x=peaks;
+y=x';
+plot(x,y);

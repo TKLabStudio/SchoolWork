@@ -1,0 +1,11 @@
+function out = num(x,y)
+out=0;
+for i=x:y
+    if(suf(i)==1)
+        out=out+i;
+    end
+   end  
+end
+function output = suf(z)
+    output = isprime(z);
+end
