@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HW_06
+//by 42
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("輸入10進位:");
+            int n = int.Parse(Console.ReadLine());
+            Change chage = new Change();
+            Console.Write("2進位:");
+            chage.DecToBin(n);
+            Console.Read();
+        }
+        
+    }
+    public class Change
+    {
+        public int DecToBin(int n)
+        {
+            int b;
+            if (n != 0)
+            {
+                b = (n % 2) + 10 * DecToBin(n / 2);
+                Console.Write(b);
+                return 0;
+            }
+            else
+                return 0;
+        }
+        
+
+    }
+}

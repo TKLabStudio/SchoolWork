@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2013\Projects\class\class\bin\Debug\@class.exe.config
+c:\users\user\documents\visual studio 2013\Projects\class\class\bin\Debug\@class.exe
+c:\users\user\documents\visual studio 2013\Projects\class\class\bin\Debug\@class.pdb
+c:\users\user\documents\visual studio 2013\Projects\class\class\obj\Debug\class.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\class\class\obj\Debug\class.Form1.resources
+c:\users\user\documents\visual studio 2013\Projects\class\class\obj\Debug\class.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\class\class\obj\Debug\class.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\class\class\obj\Debug\@class.exe
+c:\users\user\documents\visual studio 2013\Projects\class\class\obj\Debug\@class.pdb

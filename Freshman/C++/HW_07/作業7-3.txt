@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace c7
+{
+    public partial class Form2 : Form
+    {
+        public Form2()
+        {
+            InitializeComponent();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = int.Parse(textBox1.Text);
+            if (test(a) == 0)
+                label1.Text = ("是5的倍數");
+            else
+                label1.Text = ("不是5的倍數");
+        }
+
+        public static int test(int a)
+        {
+            if (a <= 0)
+                return a;
+            else
+                return test(a-5);
+
+        }
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

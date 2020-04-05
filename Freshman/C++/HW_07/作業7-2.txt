@@ -1,0 +1,55 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Microsoft.VisualBasic;
+namespace c7
+{
+    public partial class Form4 : Form
+    {
+        public Form4()
+        {
+            InitializeComponent();
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+            Random r = new Random();    //宣告亂數函式
+
+            bool have_8 = false;    //宣告布林存放陣列內是否出現過8
+
+            int m = r.Next(5, 11);  //第一個整數
+
+            int n = r.Next(5, 11);  //第二個整數
+
+            int[,] arr = new int[m, n]; //宣告二維陣列，各別長度為上述兩整數
+
+            for (int i = 0; i < m; i++)
+            {   //執行第一維度的次數
+
+                for (int j = 0; j < n; j++)
+                {   //執行第二維度的次數
+
+                    MessageBox.Show("請輸入第{0}行第{1}列值："+ (i + 1)+(j + 1)); //使用者輸入提示訊息
+
+                    arr[i, j] = Convert.ToInt32(Interaction.InputBox("請輸入數字"));
+
+                    if (arr[i, j] == 8) have_8 = true;  //判斷輸入使否為8
+
+                }
+
+            }
+
+            if (have_8 == true) MessageBox.Show("arr中含有8");   //判斷是否出現過8
+
+            else MessageBox.Show("arr中沒有8");
+
+            Console.ReadKey();
+        }
+    }
+}

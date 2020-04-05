@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace P_02
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //by 42
+            Console.Write("Month:");
+            long n = 0, temp1 = 0, temp2 = 1, m = 0;
+            m = long.Parse(Console.ReadLine());
+            for (int i = 1; i < m; i++)
+            {
+                n = n + temp1;
+                temp1 = temp2;
+                temp2 = n;
+            }
+            Console.WriteLine(n + temp1 + temp2);
+            Console.Read();
+        }
+    }
+}

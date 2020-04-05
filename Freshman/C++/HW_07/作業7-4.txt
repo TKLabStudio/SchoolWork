@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace c7
+{
+    public partial class Form3 : Form
+    {
+        public Form3()
+        {
+            InitializeComponent();
+        }
+        int[] arr = new int[100];
+        int c1 = 0;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            arr[c1] = int.Parse(textBox1.Text);
+            c1++;
+            label1.Text = ("輸入了第" + c1 + "個");
+            if (c1 == 100)
+            {
+                button1.Enabled = false;
+                ToFive(ref arr);
+            }
+        }
+        public static void ToFive(ref int[] a)
+        {
+            for (int i = 0; i < 100; i++)
+
+                if (a[i] == 2) a[i] = 5;
+        }
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

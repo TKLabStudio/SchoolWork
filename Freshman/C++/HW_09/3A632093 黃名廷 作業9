@@ -1,0 +1,71 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApplication1
+{
+
+    public partial class Form1 : Form
+    {
+        int sum = 0,at,bt,ct,a,b,c;
+        Random rom = new Random();
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+            at = rom.Next(12, 89);
+            bt = rom.Next(13, 98);
+            ct = rom.Next(23, 96);
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (at > 0)
+            {
+                    at--;
+                    a = rom.Next(1, 7);
+                   //label1.Text = a.ToString();
+                    pictureBox1.Image = imageList1.Images[a-1];
+
+            }
+            if (bt > 0)
+            {
+              bt--;
+              b = rom.Next(1, 7);
+              //label2.Text = b.ToString();
+              pictureBox2.Image = imageList1.Images[b-1];
+
+            }
+        if (ct > 0)
+        {
+            ct--;
+            c = rom.Next(1, 7);
+            //label3.Text = c.ToString();
+            pictureBox3.Image = imageList1.Images[c-1];
+
+        }
+            if(at == 0||bt == 0||ct == 0)
+            {
+                timer1.Enabled = false;
+                sum = a + b + c;
+                MessageBox.Show(sum.ToString());
+            }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+     }
+}

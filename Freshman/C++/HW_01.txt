@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace practice_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            int i = n, sum = 0;
+            while (n>0)
+            {
+                sum = n + sum;
+                n--;
+            }
+            Console.WriteLine("¿é¤J¼Æ¦r{0}¡A¿é¥X{1}",i,sum);
+            Console.Read();
+        }
+    }
+}

@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HW_02_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+	    //by 42
+            int p = 0,sum = 0;
+            Console.Write("輸入乘坐計程車的里程:");
+            double n = int.Parse(Console.ReadLine());
+            if(n>1500)
+            {
+                p = Convert.ToInt16(Math.Ceiling((n - 1500) / 250));
+                sum = 85 + p * 5;
+            }
+            else
+            {
+                sum = 85;
+            }
+
+            Console.Write("車資:{0}",sum);
+            Console.Read();
+        }
+    }
+}
