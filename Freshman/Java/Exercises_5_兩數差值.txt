@@ -1,0 +1,39 @@
+package ch2;
+import java.util.Scanner;
+public class practice_5 {
+//	3A632093_黃名廷_練習題05
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner keyin = new Scanner(System.in);
+		int t,nb,min = 0,max=0,i;
+		String ns;
+		System.out.print("Input numbers：");
+		ns = keyin.nextLine();
+		String[] n = ns.split("");
+		nb=n.length;
+		int[] ni = new int[nb];
+		int[] maxt = new int[nb];
+		for(i=0;i<nb;i++)
+			ni[i]=Integer.parseInt(n[i]);
+		for(i=0;i<nb-1;i++)
+			for(int j=0;j<nb-1;j++)
+				if(ni[j+1]>ni[j])
+				{
+					t=ni[j+1];
+					ni[j+1]=ni[j];
+					ni[j]=t;
+				}
+		
+		for(i=0;i<nb;i++)
+			maxt[i]=ni[nb-1-i];
+		
+		for(i=0;i<nb;i++)
+		{
+			min+=ni[i]*Math.pow(10,i);
+			max+=maxt[i]*Math.pow(10,i);
+		}
+			System.out.print("最大值：" + max+ "\n" + "最小值：" + min);
+			System.out.print("\n兩數值差：" + (max-min));
+
+	}
+}

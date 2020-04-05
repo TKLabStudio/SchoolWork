@@ -1,0 +1,27 @@
+package ch01;
+import java.util.Scanner;
+public class practice_1 {
+
+	public static void main(String[] args) {
+		Scanner keyin = new Scanner(System.in);
+		int i,j=0,n,k;
+		System.out.print(“Input Number:”);
+		n=keyin.nextInt();
+		for(i=2;i<=n;i++){
+			for(k=2;k<i;k++)
+			{
+				if(i%k==0)
+					break;
+			}
+			
+			if(k>=i)
+				{
+					j++;
+					System.out.print(i + "\t");
+					if((j%10)==0)
+						System.out.println();
+				}
+		}
+	}
+
+}

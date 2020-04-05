@@ -1,0 +1,25 @@
+package ch2;
+import java.util.Scanner;
+public class practice_3 {
+
+	public static void main(String[] args) {
+		// Made by 	3A632093_黃名廷
+		double x1,y1,r,x2,y2,l,g,h;
+		Scanner keyin = new Scanner(System.in);
+		System.out.println("輸入圓心Ｘ和Ｙ座標以及圓半徑（用空白鍵區隔）：");
+		x1=keyin.nextDouble();
+		y1=keyin.nextDouble();		
+		r=keyin.nextDouble();
+		System.out.println("輸入判斷點Ｘ和Ｙ座標：");
+		x2=keyin.nextDouble();
+		y2=keyin.nextDouble();	
+		l=Math.sqrt(Math.pow((x1-x2), 2)+Math.pow((y1-y2), 2));
+		if(l>r)
+			System.out.println("圓外");
+		else if (l<r)
+			System.out.println("圓內");
+		else
+			System.out.println("圓上");
+			
+	}
+}

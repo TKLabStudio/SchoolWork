@@ -1,0 +1,14 @@
+package ch2;
+import java.util.Random;
+public class ch7_p1 {
+//這是我本人做的喔，無聊的題目，ＴＡ真的很棒
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random r = new Random();
+		long timeseed = System.currentTimeMillis();
+		r.setSeed(timeseed);
+		//for(int i=0;i<10;i++)
+			System.out.print(-5+r.nextInt(96) + "\t");
+	}
+
+}

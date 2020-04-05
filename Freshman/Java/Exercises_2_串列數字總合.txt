@@ -1,0 +1,20 @@
+package ch01;
+import java.util.Scanner;
+public class practice_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner keyin = new Scanner(System.in);
+		String a;
+		int t=0,i;
+		System.out.print("Number:");
+		a=keyin.nextLine();
+		String str[] = a.split("");
+		for(i=0;i<str.length;i++)
+		{
+			t=t+Integer.parseInt(str[i]);
+		}
+		System.out.print("Sum:" + t);
+	}
+
+}

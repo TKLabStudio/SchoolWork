@@ -1,0 +1,19 @@
+package ch2;
+import java.util.Scanner;
+public class praction_8 {
+//Easy
+	public static void main(String[] args) {
+	Scanner keyin = new Scanner(System.in);
+	System.out.print("input number:");
+	int num = 0;
+	try {
+		String str = keyin.nextLine();
+		num = Integer.parseInt(str);
+	}catch(NumberFormatException e) {
+		System.out.print("Error:" + e.toString());
+	}finally {
+		System.out.print("number is:" + num);
+	}
+	
+	}
+}

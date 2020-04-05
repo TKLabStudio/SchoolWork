@@ -1,0 +1,24 @@
+package ch2;
+import java.util.Scanner;
+public class practice_4 {
+//	3A632093_黃名廷_練習題04
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner keyin = new Scanner(System.in);
+		int x,y,a=0,b=0,m;
+		System.out.print("X&Y:");
+		x=keyin.nextInt();
+		y=keyin.nextInt();
+		m=Math.max(x, y);
+		out:
+		for(a=1;a<m;a++)
+			for(b=1;b<m;b++)
+				if((a*x)-(b*y)==1)
+					break out;
+		if(a==b)
+			System.out.print("No solution");
+		else
+			System.out.print(a + " " + b);
+	}
+
+}

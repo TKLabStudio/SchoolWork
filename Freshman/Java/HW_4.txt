@@ -1,0 +1,20 @@
+package ch01;
+import java.util.Scanner;
+public class ch5_p1 {
+
+	public static void main(String[] args) {
+		// Made by 	3A632093_黃名廷
+		int n,n_b,sum = 0;
+		Scanner keyin = new Scanner(System.in);
+		System.out.print("Input <100 Number:");
+		n=keyin.nextInt();
+		n_b=n;
+		for(int i=1;i<=n_b;i++)
+		{
+			sum=sum+(2*i-1);
+		}
+		System.out.print("Sum is:" + sum);
+
+	}
+
+}

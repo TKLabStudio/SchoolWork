@@ -1,0 +1,58 @@
+package ch2;
+import java.util.Arrays;
+import java.util.Random;
+public class practice_06 {
+	//	3A632093_黃名廷_練習題6
+	public static void main(String[] args) {
+		int []num = new int[52];
+		int [][]people = new int[4][13];
+		int []temp = new int[13];
+		int n = 52;
+		for(int i=0;i<52;i++)
+			num[i] = i;
+		String []flower =  {"梅花","菱形","愛心","黑桃"};
+		
+		 long time = System.currentTimeMillis();
+		 Random ran = new Random();
+		 ran.setSeed(time);
+		 for(int y=0;y<13;y++)
+			 for(int x=0;x<4;x++)
+			 {
+				 int choose = ran.nextInt(n);
+				 people[x][y] = num[choose];
+				 for(int i=choose+1;i<n;i++)
+					 num[i-1] = num[i];
+				 n--;
+			 }
+		 
+		 //發牌囉
+		 for(int x=0;x<4;x++)
+		 {
+			 for(int y=0;y<13;y++)
+				 temp[y] = people[x][y] % 13 * 10 + people[x][y] / 13;
+			 Arrays.sort(temp);
+			 System.out.println("\n第" + (x+1) + "位玩家的手牌");
+			 for(int y=0;y<13;y++)
+			 {
+			 switch(temp[y]%10)
+			 {
+			 case 0:
+				 System.out.print(flower[0] + " ");
+				 break;
+			 case 1:
+				 System.out.print(flower[1] + " ");
+				 break;
+			 case 2:
+				 System.out.print(flower[2] + " ");
+				 break;
+			 case 3:
+				 System.out.print(flower[3] + " ");
+				 break;
+			 }
+			 System.out.print((temp[y]/10+1) + ", ");
+			 }
+		}
+		
+	}
+}
+
