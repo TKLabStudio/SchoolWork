@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">class_20190507_1</string>
+    <string-array name="tab1Items">
+        <item>漢堡</item>
+        <item>飯</item>
+        <item>排餐</item>
+        <item>麵</item>
+    </string-array>
+
+    <string-array name="tab2Items">
+        <item>薯條</item>
+        <item>冰</item>
+        <item>雞塊</item>
+        <item>炸雞</item>
+    </string-array>
+
+    <string-array name="tab3Items">
+        <item>奶茶</item>
+        <item>紅茶</item>
+        <item>烏龍茶</item>
+        <item>綠茶</item>
+    </string-array>
+
+
+</resources>

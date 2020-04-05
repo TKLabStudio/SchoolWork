@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">class_20190402_0</string>
+        <string-array name="sports">
+            <item>慢走</item>
+            <item>快步</item>
+            <item>跑步</item>
+            <item>自行車</item>
+            <item>羽毛球</item>
+            <item>高爾夫</item>
+        </string-array>
+
+</resources>

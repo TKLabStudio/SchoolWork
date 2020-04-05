@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">class_20190402_1</string>
+    <string-array name="menuItems">
+        <item>奶茶</item>
+        <item>紅茶</item>
+        <item>烏龍茶</item>
+        <item>綠茶</item>
+    </string-array>
+</resources>

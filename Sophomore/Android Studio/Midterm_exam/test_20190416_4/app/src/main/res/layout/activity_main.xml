@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconfinder_carrot_416371" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconfinder_grapes_2003307" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="124dp"
+        android:text="葡萄"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="74dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="160dp"
+        android:text="蔬菜"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="124dp"
+        android:text="熱狗"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="76dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="160dp"
+        android:text="冰棒"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconfinder_sausage_2693202" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cre" />
+
+    <TextView
+        android:id="@+id/showOrder"
+        android:layout_width="404dp"
+        android:layout_height="463dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="76dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="56dp"
+        android:text="薯條"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="74dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="56dp"
+        android:text="漢堡"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="16dp"
+        android:text="濃湯"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:text="可樂"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_fries" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_coal" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_ham" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintStart_toEndOf="@+id/checkBox3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_soup" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:entries="@array/num"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:entries="@array/num"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="160dp"
+        android:entries="@array/num"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="212dp"
+        android:entries="@array/num"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="56dp"
+        android:entries="@array/num"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="100dp"
+        android:entries="@array/num"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="160dp"
+        android:entries="@array/num"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="212dp"
+        android:entries="@array/num"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
