@@ -5,16 +5,24 @@ using UnityEngine;
 public class Player_control : MonoBehaviour {
 
     public int speed;
-    public static int score;
+    public static int score = 0;
     public int max;
     int i;
+    public AudioSource sound;
+    public string sound_name1;
+    public string sound_name2;
+    public static AudioClip sound_up;
+    public static AudioClip sound_RL;
     Rigidbody2D UFO_rigidbody;
     public GameObject door_object;
 	// Use this for initialization
 	void Start () {
         UFO_rigidbody = GetComponent<Rigidbody2D>();
         i = 0;
-        score = 0;
+        //score = 0;
+        sound = GetComponent<AudioSource>();
+        sound_up = Resources.Load<AudioClip>("" + sound_name1 + "");
+        sound_RL = Resources.Load<AudioClip>("" + sound_name2 + "");
 	}
 	
 	// Update is called once per frame
@@ -24,11 +32,22 @@ public class Player_control : MonoBehaviour {
 
         if(input_H > 0)
         {
+            sound.PlayOneShot(sound_RL);
             GetComponent<Animator>().SetBool("turn_right", true);
         }
         if(input_H < 0)
         {
+            sound.PlayOneShot(sound_RL);
             GetComponent<Animator>().SetBool("turn_right", false);
+        }
+        if (input_V > 0)
+        {
+            sound.PlayOneShot(sound_up);
+            GetComponent<Animator>().SetBool("up", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("up", false);
         }
 
         Vector2  UFO_move = new Vector2(input_H, input_V);

@@ -66,6 +66,7 @@
     <Compile Include="Assets\_Completed-Assets\Scripts\CompleteRotator.cs" />
     <Compile Include="Assets\Camera_control.cs" />
     <Compile Include="Assets\door_pass.cs" />
+    <Compile Include="Assets\fruit_OnTrigger.cs" />
     <Compile Include="Assets\pickup_roate.cs" />
     <Compile Include="Assets\Player_control.cs" />
     <Compile Include="Assets\Resources\sound_manager.cs" />
@@ -73,16 +74,16 @@
     <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
     <None Include="Assets\TutorialInfo\Fonts\LICENSE.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/tkkun/Desktop/遊戲設計課/20200303_1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/tkkun/SchoolWork/Junior/Unity/20200303_1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/tkkun/Desktop/遊戲設計課/20200303_1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/tkkun/SchoolWork/Junior/Unity/20200303_1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/tkkun/Desktop/遊戲設計課/20200303_1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/tkkun/SchoolWork/Junior/Unity/20200303_1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/tkkun/Desktop/遊戲設計課/20200303_1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/tkkun/SchoolWork/Junior/Unity/20200303_1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
