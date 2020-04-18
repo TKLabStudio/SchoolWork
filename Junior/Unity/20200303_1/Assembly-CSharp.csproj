@@ -67,6 +67,7 @@
     <Compile Include="Assets\Camera_control.cs" />
     <Compile Include="Assets\door_pass.cs" />
     <Compile Include="Assets\fruit_OnTrigger.cs" />
+    <Compile Include="Assets\NPC_move.cs" />
     <Compile Include="Assets\pickup_roate.cs" />
     <Compile Include="Assets\Player_control.cs" />
     <Compile Include="Assets\Resources\sound_manager.cs" />
