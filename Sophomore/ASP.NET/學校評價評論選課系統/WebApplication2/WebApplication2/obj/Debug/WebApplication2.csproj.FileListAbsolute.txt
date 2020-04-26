@@ -1,0 +1,10 @@
+C:\Users\wangs\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\wangs\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\wangs\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\wangs\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\wangs\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\admin\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\admin\Desktop\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\admin\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\admin\Desktop\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
