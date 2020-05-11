@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using UnityEngine;
 
 
@@ -9,6 +11,7 @@ public class NPC_move : MonoBehaviour
     public float speed;
     int cur = 0;
     public GameObject R2_object;
+    public Slider healthBarSlider;
     // Use this for initialization
     void Start()
     {
@@ -31,9 +34,15 @@ public class NPC_move : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-        if(collision.tag == "R2")
+        if(collision.tag == "R2" && healthBarSlider.value > 0)
         {
             R2_object.GetComponent<Animator>().SetBool("burning", true);
+            healthBarSlider.value = healthBarSlider.value - 0.3f;
+        }
+
+        if(healthBarSlider.value <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
         }
 	}
 }
