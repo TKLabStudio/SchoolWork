@@ -9,6 +9,7 @@ public class fruit_OnTrigger : MonoBehaviour
     static AudioClip colsound;
     public AudioSource sound;
     public static int score;
+    public GameObject NPC_object;
     Slider healthBarSlider;
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,20 @@ public class fruit_OnTrigger : MonoBehaviour
             sound.Play();
             score = score + 10;
             Debug.Log("Score: " + score);
+
+            if (gameObject == GameObject.Find("fruit (4)"))
+            {
+                Destroy(GameObject.Find("stone_wall1"));
+                Destroy(GameObject.Find("stone_wall2"));
+                NPC_object.SetActive(true);
+            }
+
             Destroy(gameObject);
+
+            if (Player_control.score >= 90)
+            {
+                GameObject.Find("door_open").SetActive(true);
+            }
         }
     }
 }

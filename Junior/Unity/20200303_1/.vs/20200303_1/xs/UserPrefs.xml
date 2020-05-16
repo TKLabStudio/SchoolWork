@@ -8,8 +8,9 @@
       <File FileName="Assets/door_pass.cs" Line="17" Column="6" />
       <File FileName="Assets/Score_add.cs" Line="15" Column="39" />
       <File FileName="Assets/Camera_control.cs" Line="17" Column="2" />
-      <File FileName="Assets/fruit_OnTrigger.cs" Line="25" Column="58" />
+      <File FileName="Assets/fruit_OnTrigger.cs" Line="35" Column="48" />
       <File FileName="Assets/NPC_move.cs" Line="40" Column="60" />
+      <File FileName="Assets/NPC_move_2.cs" Line="13" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
