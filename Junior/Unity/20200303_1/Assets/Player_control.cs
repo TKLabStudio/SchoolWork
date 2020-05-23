@@ -16,6 +16,11 @@ public class Player_control : MonoBehaviour {
     Rigidbody2D UFO_rigidbody;
     public GameObject door_object;
 	// Use this for initialization
+
+    public GameObject X_ray;
+    public float shootForce = 10f;
+
+
 	void Start () {
         UFO_rigidbody = GetComponent<Rigidbody2D>();
         i = 0;
@@ -52,7 +57,17 @@ public class Player_control : MonoBehaviour {
 
         Vector2  UFO_move = new Vector2(input_H, input_V);
         UFO_rigidbody.AddForce(UFO_move * speed);
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Vector3 pos = gameObject.transform.position + new Vector3(0, 0.1f, 0);
+            Instantiate(X_ray, pos, gameObject.transform.rotation);
+
+            //GameObject bullet = Instantiate(X_ray, transform.position, transform.rotation) as GameObject;
+            //bullet.GetComponent<Rigidbody>().AddForce(bullet.transform.forward & shootForce);
+        }
 	}
+
 	private void OnCollisionExit2D(Collision2D collision)
 	{
         if(collision.gameObject.CompareTag("stone"))
@@ -69,6 +84,7 @@ public class Player_control : MonoBehaviour {
             }
         }
 	}
+
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{

@@ -34,7 +34,7 @@ public class fruit_OnTrigger : MonoBehaviour
             {
                 Destroy(GameObject.Find("stone_wall1"));
                 Destroy(GameObject.Find("stone_wall2"));
-                NPC_object.SetActive(true);
+                //NPC_object.SetActive(true);
             }
 
             Destroy(gameObject);
