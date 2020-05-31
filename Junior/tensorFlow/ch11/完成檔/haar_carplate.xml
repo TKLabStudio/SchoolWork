@@ -2,7 +2,7 @@
 <opencv_storage>
 <haar_carplate type_id="opencv-haar-classifier">
   <size>
-    76 20</size>
+    76 32</size>
   <stages>
     <_>
       <trees>
