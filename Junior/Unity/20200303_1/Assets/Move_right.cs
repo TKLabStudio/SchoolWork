@@ -4,7 +4,7 @@ using System.Collections;
 public class Move_right : MonoBehaviour
 {
     private Animator R2_animator;
-    bool R2_turn = false;
+    bool R2_turn = true;
     // Use this for initialization
     void Start()
     {
