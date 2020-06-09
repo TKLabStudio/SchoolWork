@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{273634B5-9CB0-91F6-6515-E4CAAC4A1083}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Move_right.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/stone_blasting.cs">
     <Files>
       <File FileName="Assets/pickup_roate.cs" Line="9" Column="3" />
       <File FileName="Assets/Player_control.cs" Line="20" Column="22" />
@@ -14,6 +14,8 @@
       <File FileName="Assets/Move_right.cs" Line="7" Column="24" />
       <File FileName="Assets/X_ray_trigger.cs" Line="21" Column="49" />
       <File FileName="Assets/R2_control.cs" Line="7" Column="29" />
+      <File FileName="Assets/Move_left.cs" Line="14" Column="104" />
+      <File FileName="Assets/stone_blasting.cs" Line="19" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

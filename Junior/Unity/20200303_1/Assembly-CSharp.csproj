@@ -67,6 +67,7 @@
     <Compile Include="Assets\Camera_control.cs" />
     <Compile Include="Assets\door_pass.cs" />
     <Compile Include="Assets\fruit_OnTrigger.cs" />
+    <Compile Include="Assets\Move_left.cs" />
     <Compile Include="Assets\Move_right.cs" />
     <Compile Include="Assets\NPC_move.cs" />
     <Compile Include="Assets\NPC_move_2.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\R2_control.cs" />
     <Compile Include="Assets\Resources\sound_manager.cs" />
     <Compile Include="Assets\Score_add.cs" />
+    <Compile Include="Assets\stone_blasting.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\TutorialInfo.cs" />
     <Compile Include="Assets\X_ray_trigger.cs" />
     <None Include="Assets\TutorialInfo\Fonts\LICENSE.txt" />
