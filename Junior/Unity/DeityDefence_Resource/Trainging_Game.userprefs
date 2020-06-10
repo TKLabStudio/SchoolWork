@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\sp_NPC.cs">
+    <Files>
+      <File FileName="Assets\script\sp_People.cs" Line="25" Column="48" />
+      <File FileName="Assets\script\sp_GameManager.cs" Line="103" Column="51" />
+      <File FileName="Assets\script\sp_menu_btn.cs" Line="4" Column="25" />
+      <File FileName="Assets\script\sp_gameover_btn.cs" Line="1" Column="1" />
+      <File FileName="Assets\script\sp_gameover_GM.cs" Line="19" Column="3" />
+      <File FileName="Assets\script\sp_NPC.cs" Line="28" Column="50" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

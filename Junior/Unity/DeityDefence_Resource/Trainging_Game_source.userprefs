@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game_Script\GameManager.js">
+    <Files>
+      <File FileName="Assets\Game_Script\Bullet.js" Line="36" Column="4" />
+      <File FileName="Assets\Game_Script\GameManager.js" Line="76" Column="30" />
+      <File FileName="Assets\JS\script\js_GameManager.js" Line="239" Column="4" />
+      <File FileName="Assets\Game_Script\Magic.js" Line="1" Column="1" />
+      <File FileName="Assets\Game_Script\Water.js" Line="1" Column="1" />
+      <File FileName="Assets\JS\script\js_water_particle.js" Line="6" Column="24" />
+      <File FileName="Assets\Game_Script\NPC.js" Line="112" Column="61" />
+      <File FileName="Assets\JS\script\js_NPC.js" Line="193" Column="52" />
+      <File FileName="Assets\JS\script\js_soul.js" Line="9" Column="2" />
+      <File FileName="Assets\JS\script\js_arrow.js" Line="38" Column="80" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

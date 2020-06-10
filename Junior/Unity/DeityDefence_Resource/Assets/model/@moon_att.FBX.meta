@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: b584954fcbbd41242995e4ec1a8f21fd
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: B_chr_05_moon_01
+  - first:
+      1: 100004
+    second: B_chr_05_moon_att01
+  - first:
+      1: 100006
+    second: B_chr_05_moon_att02
+  - first:
+      1: 100008
+    second: B_chr_05_moon_att03
+  - first:
+      1: 100010
+    second: B_chr_05_moon_att04
+  - first:
+      1: 100012
+    second: B_chr_05_moon_body01
+  - first:
+      1: 100014
+    second: B_chr_05_moon_body02
+  - first:
+      1: 100016
+    second: B_chr_05_moon_body03
+  - first:
+      1: 100018
+    second: B_chr_05_moon_downlip01
+  - first:
+      1: 100020
+    second: B_chr_05_moon_downlip02
+  - first:
+      1: 100022
+    second: B_chr_05_moon_downlip03
+  - first:
+      1: 100024
+    second: B_chr_05_moon_eye
+  - first:
+      1: 100026
+    second: B_chr_05_moon_g1
+  - first:
+      1: 100028
+    second: B_chr_05_moon_g2
+  - first:
+      1: 100030
+    second: B_chr_05_moon_hair01
+  - first:
+      1: 100032
+    second: B_chr_05_moon_hair02
+  - first:
+      1: 100034
+    second: B_chr_05_moon_hair03
+  - first:
+      1: 100036
+    second: B_chr_05_moon_hair04
+  - first:
+      1: 100038
+    second: B_chr_05_moon_head
+  - first:
+      1: 100040
+    second: B_chr_05_moon_headNub
+  - first:
+      1: 100042
+    second: B_chr_05_moon_L_foot01
+  - first:
+      1: 100044
+    second: B_chr_05_moon_L_foot02
+  - first:
+      1: 100046
+    second: B_chr_05_moon_L_foot03
+  - first:
+      1: 100048
+    second: B_chr_05_moon_L_foot04
+  - first:
+      1: 100050
+    second: B_chr_05_moon_L_footNub
+  - first:
+      1: 100052
+    second: B_chr_05_moon_L_hand01
+  - first:
+      1: 100054
+    second: B_chr_05_moon_L_hand02
+  - first:
+      1: 100056
+    second: B_chr_05_moon_L_hand03
+  - first:
+      1: 100058
+    second: B_chr_05_moon_L_hand04
+  - first:
+      1: 100060
+    second: B_chr_05_moon_L_hand05_1
+  - first:
+      1: 100062
+    second: B_chr_05_moon_L_hand05_2
+  - first:
+      1: 100064
+    second: B_chr_05_moon_L_hand05_3
+  - first:
+      1: 100066
+    second: B_chr_05_moon_L_hand05Nub
+  - first:
+      1: 100068
+    second: B_chr_05_moon_L_hand06_1
+  - first:
+      1: 100070
+    second: B_chr_05_moon_L_hand06_2
+  - first:
+      1: 100072
+    second: B_chr_05_moon_L_hand06_3
+  - first:
+      1: 100074
+    second: B_chr_05_moon_L_hand06Nub
+  - first:
+      1: 100076
+    second: B_chr_05_moon_L_hand07_1
+  - first:
+      1: 100078
+    second: B_chr_05_moon_L_hand07_2
+  - first:
+      1: 100080
+    second: B_chr_05_moon_L_hand07_3
+  - first:
+      1: 100082
+    second: B_chr_05_moon_L_hand07Nub
+  - first:
+      1: 100084
+    second: B_chr_05_moon_L_hand08_1
+  - first:
+      1: 100086
+    second: B_chr_05_moon_L_hand08_2
+  - first:
+      1: 100088
+    second: B_chr_05_moon_L_hand08_3
+  - first:
+      1: 100090
+    second: B_chr_05_moon_L_hand08Nub
+  - first:
+      1: 100092
+    second: B_chr_05_moon_L_hand09_1
+  - first:
+      1: 100094
+    second: B_chr_05_moon_L_hand09_2
+  - first:
+      1: 100096
+    second: B_chr_05_moon_L_hand09_3
+  - first:
+      1: 100098
+    second: B_chr_05_moon_L_hand09Nub
+  - first:
+      1: 100100
+    second: B_chr_05_moon_L_ribbon01
+  - first:
+      1: 100102
+    second: B_chr_05_moon_L_ribbon02
+  - first:
+      1: 100104
+    second: B_chr_05_moon_L_ribbon03
+  - first:
+      1: 100106
+    second: B_chr_05_moon_L_ribbon04
+  - first:
+      1: 100108
+    second: B_chr_05_moon_L_ribbon05
+  - first:
+      1: 100110
+    second: B_chr_05_moon_Neck
+  - first:
+      1: 100112
+    second: B_chr_05_moon_pp
+  - first:
+      1: 100114
+    second: B_chr_05_moon_R_foot01
+  - first:
+      1: 100116
+    second: B_chr_05_moon_R_foot02
+  - first:
+      1: 100118
+    second: B_chr_05_moon_R_foot03
+  - first:
+      1: 100120
+    second: B_chr_05_moon_R_foot04
+  - first:
+      1: 100122
+    second: B_chr_05_moon_R_footNub
+  - first:
+      1: 100124
+    second: B_chr_05_moon_R_hand01
+  - first:
+      1: 100126
+    second: B_chr_05_moon_R_hand02
+  - first:
+      1: 100128
+    second: B_chr_05_moon_R_hand03
+  - first:
+      1: 100130
+    second: B_chr_05_moon_R_hand04
+  - first:
+      1: 100132
+    second: B_chr_05_moon_R_hand05_1
+  - first:
+      1: 100134
+    second: B_chr_05_moon_R_hand05_2
+  - first:
+      1: 100136
+    second: B_chr_05_moon_R_hand05_3
+  - first:
+      1: 100138
+    second: B_chr_05_moon_R_hand05Nub
+  - first:
+      1: 100140
+    second: B_chr_05_moon_R_hand06_1
+  - first:
+      1: 100142
+    second: B_chr_05_moon_R_hand06_2
+  - first:
+      1: 100144
+    second: B_chr_05_moon_R_hand06_3
+  - first:
+      1: 100146
+    second: B_chr_05_moon_R_hand06Nub
+  - first:
+      1: 100148
+    second: B_chr_05_moon_R_hand07_1
+  - first:
+      1: 100150
+    second: B_chr_05_moon_R_hand07_2
+  - first:
+      1: 100152
+    second: B_chr_05_moon_R_hand07_3
+  - first:
+      1: 100154
+    second: B_chr_05_moon_R_hand07Nub
+  - first:
+      1: 100156
+    second: B_chr_05_moon_R_hand08_1
+  - first:
+      1: 100158
+    second: B_chr_05_moon_R_hand08_2
+  - first:
+      1: 100160
+    second: B_chr_05_moon_R_hand08_3
+  - first:
+      1: 100162
+    second: B_chr_05_moon_R_hand08Nub
+  - first:
+      1: 100164
+    second: B_chr_05_moon_R_hand09_1
+  - first:
+      1: 100166
+    second: B_chr_05_moon_R_hand09_2
+  - first:
+      1: 100168
+    second: B_chr_05_moon_R_hand09_3
+  - first:
+      1: 100170
+    second: B_chr_05_moon_R_hand09Nub
+  - first:
+      1: 100172
+    second: B_chr_05_moon_R_ribbon01
+  - first:
+      1: 100174
+    second: B_chr_05_moon_R_ribbon02
+  - first:
+      1: 100176
+    second: B_chr_05_moon_R_ribbon03
+  - first:
+      1: 100178
+    second: B_chr_05_moon_R_ribbon04
+  - first:
+      1: 100180
+    second: B_chr_05_moon_R_ribbon05
+  - first:
+      1: 100182
+    second: B_chr_05_moon_ring01
+  - first:
+      1: 100184
+    second: B_chr_05_moon_ring02
+  - first:
+      1: 100186
+    second: B_chr_05_moon_uplip01
+  - first:
+      1: 100188
+    second: B_chr_05_moon_uplip02
+  - first:
+      1: 100190
+    second: B_chr_05_moon_uplip03
+  - first:
+      1: 100192
+    second: chr_05_floor
+  - first:
+      1: 100194
+    second: chr_05_moon_01
+  - first:
+      1: 100196
+    second: chr_05_moon_att
+  - first:
+      1: 100198
+    second: chr_05_moon_op
+  - first:
+      1: 100200
+    second: D_chr_05_moon_all
+  - first:
+      1: 100202
+    second: Dummy01
+  - first:
+      1: 100204
+    second: FloorRef003
+  - first:
+      1: 100206
+    second: Particle View 01
+  - first:
+      1: 100208
+    second: Particle View 01 1
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: B_chr_05_moon_01
+  - first:
+      4: 400004
+    second: B_chr_05_moon_att01
+  - first:
+      4: 400006
+    second: B_chr_05_moon_att02
+  - first:
+      4: 400008
+    second: B_chr_05_moon_att03
+  - first:
+      4: 400010
+    second: B_chr_05_moon_att04
+  - first:
+      4: 400012
+    second: B_chr_05_moon_body01
+  - first:
+      4: 400014
+    second: B_chr_05_moon_body02
+  - first:
+      4: 400016
+    second: B_chr_05_moon_body03
+  - first:
+      4: 400018
+    second: B_chr_05_moon_downlip01
+  - first:
+      4: 400020
+    second: B_chr_05_moon_downlip02
+  - first:
+      4: 400022
+    second: B_chr_05_moon_downlip03
+  - first:
+      4: 400024
+    second: B_chr_05_moon_eye
+  - first:
+      4: 400026
+    second: B_chr_05_moon_g1
+  - first:
+      4: 400028
+    second: B_chr_05_moon_g2
+  - first:
+      4: 400030
+    second: B_chr_05_moon_hair01
+  - first:
+      4: 400032
+    second: B_chr_05_moon_hair02
+  - first:
+      4: 400034
+    second: B_chr_05_moon_hair03
+  - first:
+      4: 400036
+    second: B_chr_05_moon_hair04
+  - first:
+      4: 400038
+    second: B_chr_05_moon_head
+  - first:
+      4: 400040
+    second: B_chr_05_moon_headNub
+  - first:
+      4: 400042
+    second: B_chr_05_moon_L_foot01
+  - first:
+      4: 400044
+    second: B_chr_05_moon_L_foot02
+  - first:
+      4: 400046
+    second: B_chr_05_moon_L_foot03
+  - first:
+      4: 400048
+    second: B_chr_05_moon_L_foot04
+  - first:
+      4: 400050
+    second: B_chr_05_moon_L_footNub
+  - first:
+      4: 400052
+    second: B_chr_05_moon_L_hand01
+  - first:
+      4: 400054
+    second: B_chr_05_moon_L_hand02
+  - first:
+      4: 400056
+    second: B_chr_05_moon_L_hand03
+  - first:
+      4: 400058
+    second: B_chr_05_moon_L_hand04
+  - first:
+      4: 400060
+    second: B_chr_05_moon_L_hand05_1
+  - first:
+      4: 400062
+    second: B_chr_05_moon_L_hand05_2
+  - first:
+      4: 400064
+    second: B_chr_05_moon_L_hand05_3
+  - first:
+      4: 400066
+    second: B_chr_05_moon_L_hand05Nub
+  - first:
+      4: 400068
+    second: B_chr_05_moon_L_hand06_1
+  - first:
+      4: 400070
+    second: B_chr_05_moon_L_hand06_2
+  - first:
+      4: 400072
+    second: B_chr_05_moon_L_hand06_3
+  - first:
+      4: 400074
+    second: B_chr_05_moon_L_hand06Nub
+  - first:
+      4: 400076
+    second: B_chr_05_moon_L_hand07_1
+  - first:
+      4: 400078
+    second: B_chr_05_moon_L_hand07_2
+  - first:
+      4: 400080
+    second: B_chr_05_moon_L_hand07_3
+  - first:
+      4: 400082
+    second: B_chr_05_moon_L_hand07Nub
+  - first:
+      4: 400084
+    second: B_chr_05_moon_L_hand08_1
+  - first:
+      4: 400086
+    second: B_chr_05_moon_L_hand08_2
+  - first:
+      4: 400088
+    second: B_chr_05_moon_L_hand08_3
+  - first:
+      4: 400090
+    second: B_chr_05_moon_L_hand08Nub
+  - first:
+      4: 400092
+    second: B_chr_05_moon_L_hand09_1
+  - first:
+      4: 400094
+    second: B_chr_05_moon_L_hand09_2
+  - first:
+      4: 400096
+    second: B_chr_05_moon_L_hand09_3
+  - first:
+      4: 400098
+    second: B_chr_05_moon_L_hand09Nub
+  - first:
+      4: 400100
+    second: B_chr_05_moon_L_ribbon01
+  - first:
+      4: 400102
+    second: B_chr_05_moon_L_ribbon02
+  - first:
+      4: 400104
+    second: B_chr_05_moon_L_ribbon03
+  - first:
+      4: 400106
+    second: B_chr_05_moon_L_ribbon04
+  - first:
+      4: 400108
+    second: B_chr_05_moon_L_ribbon05
+  - first:
+      4: 400110
+    second: B_chr_05_moon_Neck
+  - first:
+      4: 400112
+    second: B_chr_05_moon_pp
+  - first:
+      4: 400114
+    second: B_chr_05_moon_R_foot01
+  - first:
+      4: 400116
+    second: B_chr_05_moon_R_foot02
+  - first:
+      4: 400118
+    second: B_chr_05_moon_R_foot03
+  - first:
+      4: 400120
+    second: B_chr_05_moon_R_foot04
+  - first:
+      4: 400122
+    second: B_chr_05_moon_R_footNub
+  - first:
+      4: 400124
+    second: B_chr_05_moon_R_hand01
+  - first:
+      4: 400126
+    second: B_chr_05_moon_R_hand02
+  - first:
+      4: 400128
+    second: B_chr_05_moon_R_hand03
+  - first:
+      4: 400130
+    second: B_chr_05_moon_R_hand04
+  - first:
+      4: 400132
+    second: B_chr_05_moon_R_hand05_1
+  - first:
+      4: 400134
+    second: B_chr_05_moon_R_hand05_2
+  - first:
+      4: 400136
+    second: B_chr_05_moon_R_hand05_3
+  - first:
+      4: 400138
+    second: B_chr_05_moon_R_hand05Nub
+  - first:
+      4: 400140
+    second: B_chr_05_moon_R_hand06_1
+  - first:
+      4: 400142
+    second: B_chr_05_moon_R_hand06_2
+  - first:
+      4: 400144
+    second: B_chr_05_moon_R_hand06_3
+  - first:
+      4: 400146
+    second: B_chr_05_moon_R_hand06Nub
+  - first:
+      4: 400148
+    second: B_chr_05_moon_R_hand07_1
+  - first:
+      4: 400150
+    second: B_chr_05_moon_R_hand07_2
+  - first:
+      4: 400152
+    second: B_chr_05_moon_R_hand07_3
+  - first:
+      4: 400154
+    second: B_chr_05_moon_R_hand07Nub
+  - first:
+      4: 400156
+    second: B_chr_05_moon_R_hand08_1
+  - first:
+      4: 400158
+    second: B_chr_05_moon_R_hand08_2
+  - first:
+      4: 400160
+    second: B_chr_05_moon_R_hand08_3
+  - first:
+      4: 400162
+    second: B_chr_05_moon_R_hand08Nub
+  - first:
+      4: 400164
+    second: B_chr_05_moon_R_hand09_1
+  - first:
+      4: 400166
+    second: B_chr_05_moon_R_hand09_2
+  - first:
+      4: 400168
+    second: B_chr_05_moon_R_hand09_3
+  - first:
+      4: 400170
+    second: B_chr_05_moon_R_hand09Nub
+  - first:
+      4: 400172
+    second: B_chr_05_moon_R_ribbon01
+  - first:
+      4: 400174
+    second: B_chr_05_moon_R_ribbon02
+  - first:
+      4: 400176
+    second: B_chr_05_moon_R_ribbon03
+  - first:
+      4: 400178
+    second: B_chr_05_moon_R_ribbon04
+  - first:
+      4: 400180
+    second: B_chr_05_moon_R_ribbon05
+  - first:
+      4: 400182
+    second: B_chr_05_moon_ring01
+  - first:
+      4: 400184
+    second: B_chr_05_moon_ring02
+  - first:
+      4: 400186
+    second: B_chr_05_moon_uplip01
+  - first:
+      4: 400188
+    second: B_chr_05_moon_uplip02
+  - first:
+      4: 400190
+    second: B_chr_05_moon_uplip03
+  - first:
+      4: 400192
+    second: chr_05_floor
+  - first:
+      4: 400194
+    second: chr_05_moon_01
+  - first:
+      4: 400196
+    second: chr_05_moon_att
+  - first:
+      4: 400198
+    second: chr_05_moon_op
+  - first:
+      4: 400200
+    second: D_chr_05_moon_all
+  - first:
+      4: 400202
+    second: Dummy01
+  - first:
+      4: 400204
+    second: FloorRef003
+  - first:
+      4: 400206
+    second: Particle View 01
+  - first:
+      4: 400208
+    second: Particle View 01 1
+  - first:
+      23: 2300000
+    second: chr_05_moon_op
+  - first:
+      33: 3300000
+    second: chr_05_moon_op
+  - first:
+      43: 4300000
+    second: chr_05_moon_01
+  - first:
+      43: 4300002
+    second: chr_05_moon_att
+  - first:
+      43: 4300004
+    second: chr_05_moon_op
+  - first:
+      74: 7400000
+    second: moon_att
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: chr_05_moon_01
+  - first:
+      137: 13700002
+    second: chr_05_moon_att
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 87539eeaf38421047b4e53dac0c3db9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chr_05_moon_01
+    second: {fileID: 2100000, guid: dfe8e3f89d8a28248a1e06d9308a353d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chr_05_moon_02
+    second: {fileID: 2100000, guid: 37b6fcae9816ab74cb06cdab6dece71b, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: moon_att
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.17575757
+        functionName: fire
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chr_05_floor
+        weight: 1
+      - path: chr_05_moon_01
+        weight: 1
+      - path: chr_05_moon_att
+        weight: 1
+      - path: D_chr_05_moon_all
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_L_ribbon01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_L_ribbon01/B_chr_05_moon_L_ribbon02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_L_ribbon01/B_chr_05_moon_L_ribbon02/B_chr_05_moon_L_ribbon03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_L_ribbon01/B_chr_05_moon_L_ribbon02/B_chr_05_moon_L_ribbon03/B_chr_05_moon_L_ribbon04
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_L_ribbon01/B_chr_05_moon_L_ribbon02/B_chr_05_moon_L_ribbon03/B_chr_05_moon_L_ribbon04/B_chr_05_moon_L_ribbon05
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_body03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_downlip01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_downlip02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_downlip03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_eye
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_hair01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_hair01/B_chr_05_moon_hair02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_hair03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_hair04
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_headNub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_ring01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_ring02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_uplip01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_uplip02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_head/B_chr_05_moon_uplip03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_g1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_att01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_att01/B_chr_05_moon_att02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_att01/B_chr_05_moon_att03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_att01/B_chr_05_moon_att04
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand05_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand05_1/B_chr_05_moon_L_hand05_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand05_1/B_chr_05_moon_L_hand05_2/B_chr_05_moon_L_hand05_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand05_1/B_chr_05_moon_L_hand05_2/B_chr_05_moon_L_hand05_3/B_chr_05_moon_L_hand05Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand06_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand06_1/B_chr_05_moon_L_hand06_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand06_1/B_chr_05_moon_L_hand06_2/B_chr_05_moon_L_hand06_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand06_1/B_chr_05_moon_L_hand06_2/B_chr_05_moon_L_hand06_3/B_chr_05_moon_L_hand06Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand07_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand07_1/B_chr_05_moon_L_hand07_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand07_1/B_chr_05_moon_L_hand07_2/B_chr_05_moon_L_hand07_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand07_1/B_chr_05_moon_L_hand07_2/B_chr_05_moon_L_hand07_3/B_chr_05_moon_L_hand07Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand08_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand08_1/B_chr_05_moon_L_hand08_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand08_1/B_chr_05_moon_L_hand08_2/B_chr_05_moon_L_hand08_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand08_1/B_chr_05_moon_L_hand08_2/B_chr_05_moon_L_hand08_3/B_chr_05_moon_L_hand08Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand09_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand09_1/B_chr_05_moon_L_hand09_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand09_1/B_chr_05_moon_L_hand09_2/B_chr_05_moon_L_hand09_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/B_chr_05_moon_L_hand09_1/B_chr_05_moon_L_hand09_2/B_chr_05_moon_L_hand09_3/B_chr_05_moon_L_hand09Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_L_hand01/B_chr_05_moon_L_hand02/B_chr_05_moon_L_hand03/B_chr_05_moon_L_hand04/Dummy01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_g2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand05_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand05_1/B_chr_05_moon_R_hand05_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand05_1/B_chr_05_moon_R_hand05_2/B_chr_05_moon_R_hand05_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand05_1/B_chr_05_moon_R_hand05_2/B_chr_05_moon_R_hand05_3/B_chr_05_moon_R_hand05Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand06_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand06_1/B_chr_05_moon_R_hand06_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand06_1/B_chr_05_moon_R_hand06_2/B_chr_05_moon_R_hand06_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand06_1/B_chr_05_moon_R_hand06_2/B_chr_05_moon_R_hand06_3/B_chr_05_moon_R_hand06Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand07_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand07_1/B_chr_05_moon_R_hand07_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand07_1/B_chr_05_moon_R_hand07_2/B_chr_05_moon_R_hand07_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand07_1/B_chr_05_moon_R_hand07_2/B_chr_05_moon_R_hand07_3/B_chr_05_moon_R_hand07Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand08_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand08_1/B_chr_05_moon_R_hand08_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand08_1/B_chr_05_moon_R_hand08_2/B_chr_05_moon_R_hand08_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand08_1/B_chr_05_moon_R_hand08_2/B_chr_05_moon_R_hand08_3/B_chr_05_moon_R_hand08Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand09_1
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand09_1/B_chr_05_moon_R_hand09_2
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand09_1/B_chr_05_moon_R_hand09_2/B_chr_05_moon_R_hand09_3
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_body01/B_chr_05_moon_Neck/B_chr_05_moon_R_hand01/B_chr_05_moon_R_hand02/B_chr_05_moon_R_hand03/B_chr_05_moon_R_hand04/B_chr_05_moon_R_hand09_1/B_chr_05_moon_R_hand09_2/B_chr_05_moon_R_hand09_3/B_chr_05_moon_R_hand09Nub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_L_foot01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_L_foot01/B_chr_05_moon_L_foot02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_L_foot01/B_chr_05_moon_L_foot02/B_chr_05_moon_L_foot03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_L_foot01/B_chr_05_moon_L_foot02/B_chr_05_moon_L_foot03/B_chr_05_moon_L_foot04
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_L_foot01/B_chr_05_moon_L_foot02/B_chr_05_moon_L_foot03/B_chr_05_moon_L_foot04/B_chr_05_moon_L_footNub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_R_foot01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_R_foot01/B_chr_05_moon_R_foot02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_R_foot01/B_chr_05_moon_R_foot02/B_chr_05_moon_R_foot03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_R_foot01/B_chr_05_moon_R_foot02/B_chr_05_moon_R_foot03/B_chr_05_moon_R_foot04
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_pp/B_chr_05_moon_body02/B_chr_05_moon_R_foot01/B_chr_05_moon_R_foot02/B_chr_05_moon_R_foot03/B_chr_05_moon_R_foot04/B_chr_05_moon_R_footNub
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_R_ribbon01
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_R_ribbon01/B_chr_05_moon_R_ribbon02
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_R_ribbon01/B_chr_05_moon_R_ribbon02/B_chr_05_moon_R_ribbon03
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_R_ribbon01/B_chr_05_moon_R_ribbon02/B_chr_05_moon_R_ribbon03/B_chr_05_moon_R_ribbon04
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/B_chr_05_moon_R_ribbon01/B_chr_05_moon_R_ribbon02/B_chr_05_moon_R_ribbon03/B_chr_05_moon_R_ribbon04/B_chr_05_moon_R_ribbon05
+        weight: 1
+      - path: D_chr_05_moon_all/B_chr_05_moon_01/FloorRef003
+        weight: 1
+      - path: D_chr_05_moon_all/chr_05_moon_op
+        weight: 1
+      - path: Particle View 01
+        weight: 1
+      - path: Particle View 01 1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
